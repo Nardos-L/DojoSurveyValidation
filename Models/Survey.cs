@@ -17,6 +17,7 @@ namespace DojoSurveyValidation.Models
         public string Language { get; set; }
 
         [Display(Name = "Comment (optional)")]
+        [MinLength(20)]
         public string Comment { get; set;}
     }
     
